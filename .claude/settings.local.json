@@ -86,7 +86,8 @@
       "Bash(pip show:*)",
       "Bash(pip install:*)",
       "Bash(python:*)",
-      "Bash(twine check:*)"
+      "Bash(twine check:*)",
+      "Bash(twine:*)"
     ],
     "deny": []
   }
