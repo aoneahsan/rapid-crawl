@@ -12,21 +12,50 @@ license = {text = "MIT"}
 authors = [
     {name = "Ahsan Mahmood", email = "aoneahsan@gmail.com"},
 ]
-keywords = ["web-scraping", "crawling", "data-extraction", "web-crawler", "markdown", "ai", "llm"]
+maintainers = [
+    {name = "Ahsan Mahmood", email = "aoneahsan@gmail.com"},
+]
+keywords = [
+    "web-scraping",
+    "crawling",
+    "data-extraction",
+    "web-crawler",
+    "markdown",
+    "ai",
+    "llm",
+    "scraper",
+    "spider",
+    "html-to-markdown",
+    "website-crawler",
+    "data-mining",
+    "web-automation",
+    "content-extraction"
+]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Information Technology",
     "Topic :: Software Development :: Libraries :: Python Modules",
     "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
     "Topic :: Text Processing :: Markup :: HTML",
     "Topic :: Text Processing :: Markup :: Markdown",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Software Development :: Libraries",
     "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Framework :: AsyncIO",
+    "Typing :: Typed",
+    "Natural Language :: English",
 ]
 
 dependencies = [
@@ -64,9 +93,12 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/aoneahsan/rapid-crawl"
-Documentation = "https://github.com/aoneahsan/rapid-crawl#readme"
+Documentation = "https://github.com/aoneahsan/rapid-crawl/blob/main/README.md"
 Issues = "https://github.com/aoneahsan/rapid-crawl/issues"
 Source = "https://github.com/aoneahsan/rapid-crawl"
+Changelog = "https://github.com/aoneahsan/rapid-crawl/blob/main/CHANGELOG.md"
+Funding = "https://github.com/sponsors/aoneahsan"
+Twitter = "https://twitter.com/aoneahsan"
 
 [project.scripts]
 rapidcrawl = "rapidcrawl.cli:main"
@@ -78,8 +110,25 @@ packages = ["src/rapidcrawl"]
 include = [
     "/src",
     "/tests",
+    "/examples",
+    "/docs",
     "/README.md",
     "/LICENSE",
+    "/CHANGELOG.md",
+    "/CONTRIBUTING.md",
+    "/SECURITY.md",
+    "/.github",
+]
+exclude = [
+    "/.git",
+    "/.pytest_cache",
+    "/.mypy_cache",
+    "/.ruff_cache",
+    "/__pycache__",
+    "*.pyc",
+    "*.pyo",
+    "*.egg-info",
+    ".DS_Store",
 ]
 
 [tool.black]
