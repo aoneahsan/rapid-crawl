@@ -1,0 +1,30 @@
+{
+  "name": "rapid-crawl-setup",
+  "version": "0.1.0",
+  "description": "Setup wizard for RapidCrawl Python SDK",
+  "main": "setup.js",
+  "bin": {
+    "rapid-crawl-setup": "./setup.js"
+  },
+  "scripts": {
+    "start": "node setup.js"
+  },
+  "keywords": [
+    "rapidcrawl",
+    "setup",
+    "python",
+    "web-scraping",
+    "crawler",
+    "wizard"
+  ],
+  "author": "Ahsan Mahmood <aoneahsan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aoneahsan/rapid-crawl.git"
+  },
+  "homepage": "https://github.com/aoneahsan/rapid-crawl#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
