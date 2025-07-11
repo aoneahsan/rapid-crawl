@@ -160,6 +160,10 @@ downloads/
 .env.local
 .env.production
 
+# PyPI credentials - NEVER commit!
+.pypirc
+~/.pypirc
+
 # Playwright
 playwright-report/
 test-results/

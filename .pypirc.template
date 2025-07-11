@@ -1,0 +1,28 @@
+# PyPI Configuration Template
+# 
+# Instructions:
+# 1. Copy this file to ~/.pypirc
+# 2. Replace <your-pypi-token> with your actual PyPI API token
+# 3. Replace <your-testpypi-token> with your TestPyPI API token (optional)
+# 4. Set file permissions: chmod 600 ~/.pypirc
+#
+# To get your PyPI token:
+# 1. Create account at https://pypi.org/account/register/
+# 2. Verify your email
+# 3. Enable 2FA (recommended)
+# 4. Go to https://pypi.org/manage/account/token/
+# 5. Create a new API token
+
+[distutils]
+index-servers =
+    pypi
+    testpypi
+
+[pypi]
+username = __token__
+password = <your-pypi-token>
+
+[testpypi]
+repository = https://test.pypi.org/legacy/
+username = __token__
+password = <your-testpypi-token>

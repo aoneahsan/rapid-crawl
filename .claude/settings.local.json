@@ -82,7 +82,11 @@
       "Bash(yarn test)",
       "Bash(yarn clean)",
       "Bash(yarn tsc:*)",
-      "WebFetch(domain:docs.firecrawl.dev)"
+      "WebFetch(domain:docs.firecrawl.dev)",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(twine check:*)"
     ],
     "deny": []
   }
